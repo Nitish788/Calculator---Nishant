@@ -1,0 +1,62 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    background: linear-gradient(rgb(150 215 215 / 70%), rgb(241 76 137 / 55%)), url(c1.jpg) no-repeat center center/cover;
+    opacity: 0.8;
+}
+
+.container {
+    margin: auto;
+    height: 28.6em;
+    width: 20.2em;
+    border: 3px solid #ffffff;
+    position: relative;
+    top: 7em;
+    background-color: white;
+}
+
+.result {
+    height: 90px;
+    font-size: 2em;
+}
+
+.output-1 {
+    text-align: right;
+    height: 40px;
+    margin: 10px 20px;
+    color: #8bc34a;
+}
+
+.output-2 {
+    text-align: right;
+    color: #e91e63;
+    font-style: italic;
+}
+
+button {
+    margin: 11px;
+    padding: 12px 10px 13px 28px;
+    font-family: math;
+    font-size: 16px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.operator {
+    background-color: rgb(246 255 109 / 52%);
+}
+
+.number {
+    background-color: rgb(37 255 64 / 35%);
+}
+
+.clear {
+    background-color: #f70808;
+}
+
+.equal {
+    background-color: rgb(246 255 109 / 52%);
+}
